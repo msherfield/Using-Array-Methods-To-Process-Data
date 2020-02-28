@@ -31,18 +31,29 @@ var gbp = items.filter(function(item){
 
 4)
 var madeOfWood = items
-.filter(function(item){
+wood.filter(function(item){
     return  item.materials.includes('wood')
 })
 .map(function(item) {
     return item.title
 }) .join("\n\n")
 
-[1,2,3].forEach(function(item){
+5) 
+var eight = items
+material.filter(function(item){
+    return item.materials.length >=8
+})
+material.map(function(item){
+    
+})
+
+
+
+/*[1,2,3].forEach(function(item){
     console.log('function called')
     console.log(item)
 })
-
+*/
 /*var between = items.filter(function(item)) {
     return item.price > 14 && item.price < 18
 } .map(function(item) {
@@ -51,10 +62,10 @@ var madeOfWood = items
 document.querySelector("#answer2").innnerHTML=*/
 
 
-var code = items
+/*var code = items
 
 var currencycode = code.filter(function (items){
     return item.name, item.price (item === "GBP")
-})
+})*/
 
 
